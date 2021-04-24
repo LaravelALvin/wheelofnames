@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='chrome=1'>
+    <title>Wheel by inlinestyle</title>
+    <link rel='stylesheet' href='stylesheets/styles.css'>
+    <link rel='stylesheet' href='stylesheets/github-light.css'>
+    <meta name='viewport' content='width=device-width'>
+  </head>
+  <body>
+    <textarea id="txtName" name="txtNames" rows="10" cols="0"></textarea>
+    <button id="sum">SUMBIT</button>
+    <div id="venues" style="visibility: hidden;">
+      <h1>Names <input type="checkbox" class="checkAll" checked /></h1>
+      <div id="name"></div>
+      <div id="types"></div>
+    </div>
+    <div id="filterToggle">. . .</div>
+  <div id="wheel">
+      <canvas id="canvas" width="1000" height="600"></canvas>
+  </div>
+  
+    <script
+      src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'
+      crossorigin='anonymous'></script>
+    <script
+      src='https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.3.6/tinysort.min.js'
+      crossorigin='anonymous'></script>
+    <script
+      src='https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.3.6/jquery.tinysort.min.js'
+      crossorigin='anonymous'></script>
+    <script src='javascripts/scale.fix.js'></script>
+    <script src='javascripts/wheel.js'></script>    
+  </body>
+</html>
